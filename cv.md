@@ -20,3 +20,7 @@ Hardworking student seeking employment. Loves programming and started learning i
 
    2020 - 2021
 
+### Language
+English C1
+
+Russian Native
