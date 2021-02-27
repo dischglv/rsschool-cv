@@ -24,3 +24,14 @@ Hardworking student seeking employment. Loves programming and started learning i
 English C1
 
 Russian Native
+
+### Skills
+* HTML, CSS
+
+* JavaScript
+
+* Scripting for Adobe Products (e.g. Adobe Indesign, Adobe Illustrator)
+
+* Git
+
+* Ruby, Ruby on Rails
