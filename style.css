@@ -6,3 +6,60 @@
 .rsschool-logo {
   width: 50px;
 }
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 300px;
+  padding: 0 50px;
+}
+
+.header__image {
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.header__title {
+  width: 200px;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  bottom: 70px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.header__contacts {
+  display: inline-block;
+  text-align: right;
+  margin-left: 40px;
+  position: relative;
+  bottom: 70px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.contacts-list {
+  margin-bottom: 0;
+}
+
+.contacts__item {
+  list-style-type: none;
+}
+
+.contacts__item a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts__item a:hover {
+  color: #FB5012;
+}
+
