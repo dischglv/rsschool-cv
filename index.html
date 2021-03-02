@@ -15,11 +15,10 @@
       <div class="header__image">
         <img src="./images/profile.jpg" alt="profile-picture" class="profile-image">
       </div>
-
       <h1 class="header__title">Shchegoleva Diana <br> CV</h1>
       <div class="header__contacts">
         <div class="contacts">
-          <h3>Contacts:</h3>
+          <h3>contacts:</h3>
           <ul class="contacts__list">
             <li class="contacts__item">
               <a href="https://t.me/dischglv">telegram</a>
@@ -36,12 +35,11 @@
           </ul>
         </div>
       </div>
-
     </header>
     <main>
       <section class="cv-section">
         <h2 class="cv-section__header">Profile</h2>
-        <div class="cv-section__content">Hardworking student seeking employment. Loves programming and started learning it since 16. In particular interested in web development sphere, both backend and frontend. Highly motivated, studying a lot to improve programming skills. Analytic mind, excels at math.</div>
+        <div class="cv-section__content">hardworking student seeking employment. loves programming and started learning it since 16. in particular interested in web development sphere, both backend and frontend. highly motivated, studying a lot to improve programming skills. analytic mind, excels at math.</div>
       </section>
       <section class="cv-section">
         <h2 class="cv-section__header">Education</h2>
@@ -76,7 +74,7 @@
         <div class="cv-section__content">                     
           <ul>
             <li class="cv-section__item">
-              HTML, CSS
+              html, css
             </li>
             <li class="cv-section__item">
               JavaScript
@@ -98,38 +96,40 @@
         <div class="code-block">
           <pre>
             <code>
-              class Player
-                attr_reader :name
-                attr_accessor :bank, :hand
-  
-                def initialize(name)
-                  @name = name
-                  @bank = Bank.new(100)
-                  @hand = Hand.new
-                end
-  
-                def give_money_to(destination, amount)
-                  bank.give_to(destination, amount)
-                end
-  
-                protected
-  
-                attr_accessor :game
-              end
+          class Player
+            attr_reader :name
+            attr_accessor :bank, :hand
+
+            def initialize(name)
+              @name = name
+              @bank = Bank.new(100)
+              @hand = Hand.new
+            end
+
+            def give_money_to(destination, amount)
+              bank.give_to(destination, amount)
+            end
+
+            protected
+
+            attr_accessor :game
+          end
             </code>
           </pre>
         </div>
       </section>
       <section class="cv-section">
-        <h2>Completed Projects</h2>
-        <ul>
-          <li class="cv-section__item">
-            <a href="https://github.com/dischglv/black-jack-game">Ruby project: Black Jack Game</a>            
-          </li>
-          <li class="cv-section__item">
-            <a href="https://github.com/dischglv/test-guru">RoR project: Test Guru</a>
-          </li>
-        </ul>
+        <h2 class="cv-section__header">Completed Projects</h2>
+        <div class="cv-section__content">
+          <ul>
+            <li class="cv-section__item">
+              <a href="https://github.com/dischglv/black-jack-game">Ruby project: Black Jack Game</a>            
+            </li>
+            <li class="cv-section__item">
+              <a href="https://github.com/dischglv/test-guru">RoR project: Test Guru</a>
+            </li>
+          </ul>
+        </div>         
       </section>
     </main>
     <footer>

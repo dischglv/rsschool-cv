@@ -44,6 +44,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 16px;
+  font-variant: small-caps;
 }
 
 .contacts-list {
@@ -63,3 +64,19 @@
   color: #FB5012;
 }
 
+.cv-section__header {
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.cv-section__content {
+  padding: 30px 50px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: 18px;
+}
