@@ -80,3 +80,23 @@
   font-variant: small-caps;
   font-size: 18px;
 }
+
+.cv-section__content a {
+  color: #000000;
+}
+
+.cv-section__content a:hover {
+  color: #FB5012;
+}
+
+.layout-2-col div {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+.layout-2-col li {
+  width: 49%;
+  display: inline-block;
+  white-space: pre-line;
+}
