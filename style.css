@@ -1,0 +1,128 @@
+.profile-image {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 300px;
+  padding: 0 50px;
+}
+
+.header__image {
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.header__title {
+  width: 200px;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  bottom: 70px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.header__contacts {
+  display: inline-block;
+  text-align: right;
+  margin-left: 40px;
+  position: relative;
+  bottom: 70px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  font-variant: small-caps;
+}
+
+.contacts-list {
+  margin-bottom: 0;
+}
+
+.contacts__item {
+  list-style-type: none;
+}
+
+.contacts__item a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts__item a:hover {
+  color: #FB5012;
+}
+
+.cv-section__header {
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.cv-section__content {
+  padding: 30px 50px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+.cv-section__content a {
+  color: #000000;
+}
+
+.cv-section__content a:hover {
+  color: #FB5012;
+}
+
+.layout-2-col div {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+.layout-2-col li {
+  width: 49%;
+  display: inline-block;
+  white-space: pre-line;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-size: 18px;
+
+  padding: 20px 50px;;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer a:hover {
+  color: #FB5012;
+}
+
+.layout-3-col p {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+.layout-3-col p.rsschool-logo {
+  width: 80px;
+  padding-left: 50px;
+}
