@@ -10,8 +10,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Raleway&display=swap" rel="stylesheet">
 </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
+    <div class="header">
+      <header class="wrapper">
         <div class="header__image">
           <img src="./images/profile.jpg" alt="profile-picture" class="profile-image">
         </div>
@@ -36,6 +36,8 @@
           </div>
         </div>
       </header>
+    </div>
+    <div class="wrapper">
       <main>
         <section class="cv-section">
           <h2 class="cv-section__header">Profile</h2>
@@ -96,24 +98,26 @@
           <div class="code-block">
             <pre>
               <code>
-            class Player
-              attr_reader :name
-              attr_accessor :bank, :hand
-
-              def initialize(name)
-                @name = name
-                @bank = Bank.new(100)
-                @hand = Hand.new
-              end
-
-              def give_money_to(destination, amount)
-                bank.give_to(destination, amount)
-              end
-
-              protected
-
-              attr_accessor :game
-            end
+                def render_errors_json
+                  respond_to do |format|
+                    format.json { render json: votable.errors.full_messages, 
+                                         status: :forbidden }
+                  end
+                end
+            
+                def render_json
+                  respond_to do |format|
+                    format.json { render json: votable.votes }
+                  end
+                end
+            
+                def votable
+                  @votable ||= model_klass.find(params[:id])
+                end
+              
+                def model_klass
+                  controller_name.classify.constantize
+                end
               </code>
             </pre>
           </div>
@@ -137,7 +141,7 @@
           <a href="https://github.com/dischglv">github</a>
         </p>
         <p>
-          2021
+          <time>2021</time>
         </p>
         <p class="rsschool-logo">
           <a href="https://rs.school/">
