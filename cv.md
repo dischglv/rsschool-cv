@@ -32,3 +32,8 @@ Technology / Skill   |   Level
     <sup>*[Thinknetica](https://thinknetica.com/ruby_on_rails), 2020*</sup>
 * JS / Frontend course 2023Q4
     <sup>*[RSSchool](https://rs.school/)*</sup>
+
+## Language Level
+
+**English - Advanced C1**. 
+I read, speak and listen fluently in English. Especially on technical topics :thumbsup:
